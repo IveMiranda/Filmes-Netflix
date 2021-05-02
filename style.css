@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: rgb(245, 186, 186);
+	color:rgba(0, 0, 0, 0.5);
+}
+ div#interface {
+	 width:1100px;
+	 background-color: #f5e1e1;
+	 margin: -20px auto 0px auto;
+	 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	 padding: 10px 10px 10px 10px;	 
+ }
+	
+p {
+	font-family: 'Arial',sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	text-indent: 30px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+a{
+	color: #640505;
+}
+
+header#cabecalho img#pipoca {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 1000px;
+	top: 10px;
+}
+
+header#cabecalho {
+	border-bottom: 1px #000000 solid;
+	height: 150px;
+}
+
+header#cabecalho h1 {
+	font-family: Arial, sans-serif;
+	font-size: 45px;
+	color: #640505;
+	text-shadow: 1px 1px 1px rgba(243, 170, 170, 0.6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+	font-family: "Arial", sans-serif;
+	font-size: 25px;
+	color: #000000;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+section#corpo {
+	display: block;
+	width: 750px;
+	float: left;
+	border-right: 1px solid #9c9898;
+}
+section#corpo h3{
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	color: #000000;
+	padding: 0px;
+	margin-bottom: 0px;
+}	
+aside#lateral {
+	display: block;
+	width: 150px;
+	float: right;
+	margin-left: 70px;
+	margin-right: 110px;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+}
+
+footer#rodape {
+	display: flex;
+	text-align: center;
+	justify-content:space-evenly;
+	flex-direction: column;
+	clear: both;
+	border-top: 1px solid #9c9898;
+}
+footer#rodape p{
+	text-align: center;
+}
+
